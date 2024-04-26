@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileUploadTutorial", "FileUploadTutorial.csproj", "{6AFD05AE-639B-4FD3-B6E2-150707FB75AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AFD05AE-639B-4FD3-B6E2-150707FB75AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFD05AE-639B-4FD3-B6E2-150707FB75AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFD05AE-639B-4FD3-B6E2-150707FB75AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFD05AE-639B-4FD3-B6E2-150707FB75AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF43E8D3-836C-42BD-82D9-4FDE625EB2C2}
+	EndGlobalSection
+EndGlobal
