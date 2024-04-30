@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Araç Kiralama Sistemi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .search-container {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .search-input {
+            padding: 1em;
+            width: 60%;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .search-button {
+            padding: 1em;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .results-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .car-card {
+            width: 30%;
+            padding: 1em;
+            margin: 1em;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Araç Kiralama Sistemi</h1>
+    </header>
+
+    <section>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Araç tipi, marka, model...">
+            <button class="search-button">Ara</button>
+        </div>
+
+        <div class="results-container">
+            <!-- Arama sonuçları buraya eklenecek -->
+            <div class="car-card">
+                <h2>Audi A3</h2>
+                <p>Fiyat: $50/gün</p>
+                <button>Kirala</button>
+            </div>
+            <div class="car-card">
+                <h2>BMW 3 Series</h2>
+                <p>Fiyat: $60/gün</p>
+                <button>Kirala</button>
+            </div>
+            <div class="car-card">
+                <h2>Mercedes-Benz C-Class</h2>
+                <p>Fiyat: $70/gün</p>
+                <button>Kirala</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Araç Kiralama Sistemi
+    </footer>
+
+</body>
+
+</html>
