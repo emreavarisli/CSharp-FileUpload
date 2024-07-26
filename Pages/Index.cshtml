@@ -20,7 +20,7 @@
     </form>
 </div>
 <<div>
-    @if(string.IsNullOrWhiteSpace(Model.FilePath))
+    @if(!string.IsNullOrWhiteSpace(Model.FilePath))
         {
             <img src="@Model.FilePath" alt="Alternate Text" />
         }
